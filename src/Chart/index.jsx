@@ -29,7 +29,7 @@ const Chart = () => {
       ></circle>
       
       
-      <text x="50" y="50" fontFamily="Verdana" fontSize="12" textAnchor="middle" alignmentBaseline="middle">78%</text>
+      <text x="50" y="50" fontFamily="Verdana" fontSize="12" textAnchor="middle" alignmentBaseline="middle" className="font-bold text-lg">78%</text>
     </svg>
       <p>Average</p>
   </div>
@@ -58,7 +58,7 @@ const Chart = () => {
       ></circle>
       
       
-      <text x="50" y="50" fontFamily="Verdana" fontSize="12" textAnchor="middle" alignmentBaseline="middle">95%</text>
+      <text x="50" y="50" fontFamily="Verdana" fontSize="12" textAnchor="middle" alignmentBaseline="middle" className="font-bold text-lg">95%</text>
     </svg>
       <p>Top</p>
   </div>
@@ -87,7 +87,7 @@ const Chart = () => {
       ></circle>
       
       
-      <text x="50" y="50" fontFamily="Verdana" fontSize="12" textAnchor="middle" alignmentBaseline="middle">59%</text>
+      <text x="50" y="50" fontFamily="Verdana" fontSize="12" textAnchor="middle" alignmentBaseline="middle" className="font-bold text-lg">59%</text>
     </svg>
       <p>Me</p>
   </div>

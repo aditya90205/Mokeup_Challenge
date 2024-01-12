@@ -2,7 +2,7 @@ const Goals = () => {
   return (
     <div className="mt-10 lg:mt-0"> 
         <div className="flex flex-col items-start">
-        <h3 className="text-blue-800 ">Retierement Income</h3>
+        <h3 className="text-blue-800 text-sm lg:text-lg">Retierement Income</h3>
         <h2 className="font-bold text-2xl ">Starting Year 2056</h2>
         </div>
 

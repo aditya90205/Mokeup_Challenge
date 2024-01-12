@@ -41,14 +41,14 @@ const Header = () => {
   className="mt-6 rounded-lg bg-neutral-100 pt-6 shadow-lg dark:text-black dark:shadow-black/30 lg:mt-1">
         <div className="flex flex-col items-start ml-5">
           <h3 className="text-2xl my-6 lg:text-lg">Recent Transactions</h3>
-          <p className="text-gray-400 font-semibold">2020-08-07</p>
-          <p className="lg:text-xs">Withdraw Transfer to Bank-XXX11</p>
+          <p className="text-gray-400 font-semibold text-sm lg:text-lg">2020-08-07</p>
+          <p className="text-xs lg:text-sm">Withdraw Transfer to Bank-XXX11</p>
           <hr className="my-6 w-11/12 h-0.5 border-t-0 bg-neutral-500 opacity-100 dark:opacity-30" />
-           <p className="text-gray-400 font-semibold">2020-08-07</p>
-          <p className="lg:text-xs">Withdraw Transfer to Bank-XXX11</p>
+           <p className="text-gray-400 font-semibold text-sm lg:text-lg">2020-08-07</p>
+          <p className="text-xs lg:text-sm">Withdraw Transfer to Bank-XXX11</p>
           <hr className="my-6 w-11/12 h-0.5 border-t-0 bg-neutral-500 opacity-100 dark:opacity-30" />
-          <p className="text-gray-400 font-semibold">2020-08-07</p>
-          <p className="lg:text-xs">Withdraw Transfer to Bank-XXX11</p>
+          <p className="text-gray-400 font-semibold text-sm lg:text-lg">2020-08-07</p>
+          <p className="text-xs lg:text-sm">Withdraw Transfer to Bank-XXX11</p>
           <hr className="my-6 w-11/12 h-0.5 border-t-0 bg-neutral-500 opacity-100 dark:opacity-30" />  
         </div>
  

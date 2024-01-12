@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-end top-0">
+      <div className="flex justify-end top-0 lg:hidden">
         <button
           type="button"
           className="inline-flex flex-col items-end justify-end "
@@ -21,11 +21,34 @@ const Navbar = () => {
         </button>
       </div>
 
-      <div className="fixed bottom-0 left-0 z-50 w-full h-16 border-t border-gray-200 bg-white">
-        <div className="grid h-full max-w-lg grid-cols-5 mx-auto font-medium">
+      <div className="fixed bottom-0 left-0 z-50 w-full h-16 border-t border-gray-200 bg-white lg:w-16 lg:h-full">
+        <div className="flex flex-col items-center justify-center">
+          <img
+            src="butterfly.png"
+            alt="butterfly"
+            className="hidden lg:block lg:w-9 lg:ml-1 lg:mt-4 lg:mb-7"
+          />
+          <button type="button" className="hidden lg:block">
+            <svg
+              className="w-5 h-5 mb-2 text-gray-500  dark:group-hover:text-blue-500"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="5"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+          </button>
+        </div>
+
+        <div className="grid h-full max-w-lg grid-cols-5 mx-auto font-medium lg:flex lg:flex-col lg:items-center lg:mt-44">
           <button
             type="button"
-            className="inline-flex flex-col items-center justify-center  group"
+            className="inline-flex flex-col items-center justify-center group lg:mb-7"
           >
             <svg
               className="w-5 h-5 mb-2 text-gray-500  dark:group-hover:text-blue-500"
@@ -39,7 +62,7 @@ const Navbar = () => {
           </button>
           <button
             type="button"
-            className="inline-flex flex-col items-center justify-center  group"
+            className="inline-flex flex-col items-center justify-center  group lg:mb-7"
           >
             <svg
               className="w-5 h-5 mb-2 text-gray-500  dark:group-hover:text-blue-500"
@@ -54,7 +77,7 @@ const Navbar = () => {
           </button>
           <button
             type="button"
-            className="inline-flex flex-col items-center justify-center  group"
+            className="inline-flex flex-col items-center justify-center  group lg:mb-7"
           >
             <svg
               className="w-5 h-5 mb-2 text-gray-500  dark:group-hover:text-blue-500"
@@ -74,7 +97,7 @@ const Navbar = () => {
           </button>
           <button
             type="button"
-            className="inline-flex flex-col items-center justify-center  group"
+            className="inline-flex flex-col items-center justify-center  group lg:mb-7"
           >
             <svg
               className="w-5 h-5 mb-2 text-gray-500  dark:group-hover:text-blue-500"
@@ -88,7 +111,7 @@ const Navbar = () => {
           </button>
           <button
             type="button"
-            className="inline-flex flex-col items-center justify-center  group"
+            className="inline-flex flex-col items-center justify-center  group lg:mb-24 lg:hidden"
           >
             <svg
               className="w-5 h-5 mb-2 text-gray-500  dark:group-hover:text-blue-500"
@@ -104,6 +127,42 @@ const Navbar = () => {
               <line x1="21" y1="21" x2="16.65" y2="16.65" />
             </svg>
           </button>
+
+          <div className="hidden lg:block lg:mt-72">
+            <button type="button" className="hidden lg:block  group lg:mb-6  ">
+              <svg
+                className="w-5 h-5 mb-2 text-gray-500 dark:group-hover:text-blue-500"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="3"
+              >
+                <path d="M12 22s-1.5-1.03-1.5-5h3c0 3.97-1.5 5-1.5 5zM19.58 13C18.69 12.42 18 11.11 18 10V7a6 6 0 0 0-12 0v3c0 1.11-.69 2.42-1.58 3A1.25 1.25 0 0 0 5 16h14a1.25 1.25 0 0 0 1.58-3z" />
+              </svg>
+            </button>
+
+            <button type="button" className="hidden lg:block ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="feather feather-log-out text-gray-500"
+              >
+                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                <polyline points="16 17 21 12 16 7"></polyline>
+                <line x1="21" y1="12" x2="9" y2="12"></line>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </>

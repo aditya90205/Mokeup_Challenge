@@ -1,7 +1,7 @@
 
 const Chart = () => {
   return (
-    <div className="flex justify-between mb-14">
+    <div className="flex justify-between mb-14 lg:mb-0 lg:ml-10">
 
     
     <div className="relative w-24 h-20">

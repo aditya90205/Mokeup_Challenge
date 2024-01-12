@@ -1,26 +1,26 @@
 
 const Graph = () => {
   return (
-    <body className=" mt-8 flex flex-col items-center justify-center text-gray-700 ">
+    <body className="lg:py-0 mt-8 lg:mt-0 flex flex-col items-center justify-center text-gray-700 ">
 
-	<div className="flex flex-col items-center w-full max-w-screen-md p-6 pb-6 bg-white rounded-lg shadow-xl sm:p-8">
+	<div className="lg:py-9 flex flex-col items-center w-full max-w-screen-md p-6 pb-6 bg-white rounded-lg shadow-xl sm:p-8 lg:p-16">
 		<h2 className="text-2xl font-bold ml-0">Contributions Overtime</h2>
 
         <div className="flex justify-evenly mt-4">
-			<div className="flex flex-col">
-				<span className=" w-4 h-2 bg-indigo-400 rounded-md"></span>
+			<div className="flex flex-col lg:flex-row lg:items-center">
+				<span className=" w-4 h-2 bg-indigo-400 rounded-md lg:mr-1"></span>
 				<p className="text-sm text-gray-400 font-medium">Employer</p>
-                <h1 className="font-bold text-lg">$73,500</h1>
+                <h1 className="font-bold text-lg lg:ml-1 lg:text-sm">$73,500</h1>
 			</div>
-			<div className="flex flex-col ml-4">
-				<span className=" w-4 h-2 bg-indigo-300 rounded-md"></span>
+			<div className="flex flex-col ml-4 lg:flex-row lg:items-center">
+				<span className=" w-4 h-2 bg-indigo-300 rounded-md lg:mr-1"></span>
 				<span className="text-sm text-gray-400 font-medium">Employee</span>
-                <h1 className="font-bold text-lg">$52,500</h1>
+                <h1 className="font-bold text-lg lg:ml-1 lg:text-sm">$52,500</h1>
 			</div>
-			<div className="flex flex-col ml-4">
-				<span className=" w-4 h-2 bg-indigo-200 rounded-md"></span>
+			<div className="flex flex-col ml-4 lg:flex-row lg:items-center">
+				<span className=" w-4 h-2 bg-indigo-200 rounded-md lg:mr-1"></span>
 				<span className="text-sm text-gray-400 font-medium">Total Investment</span>
-                <h1 className="font-bold text-lg">$244,313</h1>
+                <h1 className="font-bold text-lg lg:ml-1 lg:text-sm">$244,313</h1>
 			</div>
 		</div>
 

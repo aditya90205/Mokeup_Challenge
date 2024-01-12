@@ -1,6 +1,7 @@
 const Range = () => {
   return (
-    <div className="mt-6 mb-10 rounded-lg bg-neutral-100 pt-6 shadow-lg dark:text-black dark:shadow-black/30">
+    <>
+    <div className="mt-6 lg:mt-0 mb-11 lg:mb-0 rounded-lg bg-neutral-100 pt-6 lg:p-14 shadow-lg dark:text-black dark:shadow-black/30">
 
       <div>
 
@@ -55,14 +56,28 @@ const Range = () => {
         <div className="mt-5">
           <button
             type="button"
-            className="focus:outline-none text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-32 py-2.5 mb-1t dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-900"
+            className="focus:outline-none text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-32 lg:px-20 py-2.5 mb-1 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-900"
           >
-            I want to
+            Update
           </button>
         </div>
 
+        <h1 className="hidden lg:block lg:text-center lg:text-indigo-600 lg:font-bold lg:text-sm lg:mt-5">View Help Docs &gt;</h1>
+
       </div>
     </div>
+
+    <div className="hidden mt-6 lg:block lg:flex lg:items-center lg:ml-2">
+      <div>
+       <hr className="w-1 h-24 mx-auto my-4 bg-indigo-700 border-0 rounded md:my-10" />
+      </div>
+      <div className="flex flex-col items-start ml-3">
+      <h1 className="text-lg text-gray-400">Are you considering a <span className="font-bold text-black">Housing Advance?</span></h1>
+      <p className="text-sm text-gray-500">Limited time reduced interest.</p>
+      <p className="text-indigo-600 mt-3">Learn More  &gt; </p>
+      </div>
+    </div>
+    </>
   );
 };
 
